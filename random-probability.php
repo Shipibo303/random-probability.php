@@ -1,6 +1,4 @@
 <?php
-randomWithProbability([1, 60], [2, 20], [3, 10], [4, 10]);
-
 function randomWithProbability(...$args) {
     $keys = [];
     $probs = [];
